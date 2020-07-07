@@ -32,6 +32,7 @@
 
 h1 {
 	font-family: "Buffalo Bold Inline", "Titillium Web", Verdana;
+	font-weight: 900;
 	font-size: 4rem;
 	margin-bottom: .5rem;
 	color: white;
@@ -57,26 +58,65 @@ h1 {
 }
 
 h3 {
-	margin-left: 50%;
-	transform: translateX(-50%);
-
+	margin: 15px 5px 5px 5px;
 	font-family: "Buffalo Semi Bold Outline";
-	font-size: 3.6rem;
+	font-size: 3rem;
 	/*max-width: 750px;*/
 	color: white;
 }
 
+@media (min-width: 600px) {
+	h3 {
+		margin: 15px 5px 5px 10px;
+		font-size: 3.6rem;
+	}
+}
+
+@media (min-width: 900px) {
+	h3 {
+		margin: 30px 5px 5px 50px;
+		font-size: 3.6rem;
+	}
+}
+
+@media (min-width: 1080px) {
+	h3 {
+		margin-left: 50%;
+		transform: translateX(-50%);
+		font-size: 3.6rem;
+	}
+}
+
 h4 {
-	margin-left: 50%;
-	transform: translateX(-50%);
+	margin: 15px 5px 5px 5px;
 
 	font-family: "Buffalo Bold";
 	font-size: 2.6rem;
 	color: white;
 }
 
+@media (min-width: 600px) {
+	h4 {
+		margin: 15px 5px 5px 10px;
+	}
+}
+
+@media (min-width: 900px) {
+	h4 {
+		margin: 30px 5px 5px 50px;
+	}
+}
+
+@media (min-width: 1080px) {
+	h4 {
+		margin-left: 50%;
+		transform: translateX(-50%);
+	}
+}
+
 h5 {
-	font-family: "Buffalo Light";
+	font-family: "Buffalo Light","Titillium Web", Verdana;
+	font-weight: 200;
 	font-size: 3rem;
 	margin-top: .5rem;
 	color: white;
