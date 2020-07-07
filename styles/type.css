@@ -59,7 +59,7 @@ h1 {
 
 h3 {
 	margin: 15px 5px 5px 5px;
-	font-family: "Buffalo Semi Bold Outline";
+	font-family: "Buffalo Semi Bold Outline", "Titillium Web", Verdana;
 	font-size: 3rem;
 	/*max-width: 750px;*/
 	color: white;
@@ -90,7 +90,7 @@ h3 {
 h4 {
 	margin: 15px 5px 5px 5px;
 
-	font-family: "Buffalo Bold";
+	font-family: "Buffalo Bold", "Titillium Web", Verdana;
 	font-size: 2.6rem;
 	color: white;
 }
