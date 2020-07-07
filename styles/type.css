@@ -35,16 +35,29 @@ h1 {
 	font-size: 9rem;
 	/*max-width: 750px;*/
 	color: white;
+	text-align: center;
+}
+
+@media (min-width: 1080px) {
+	h1 {
+		margin-bottom: .5rem;
+	}
 }
 
 h3 {
+	margin-left: 50%;
+	transform: translateX(-50%);
+
 	font-family: "Buffalo Semi Bold Outline";
 	font-size: 3.6rem;
-	max-width: 750px;
+	/*max-width: 750px;*/
 	color: white;
 }
 
 h4 {
+	margin-left: 50%;
+	transform: translateX(-50%);
+
 	font-family: "Buffalo Bold";
 	font-size: 2.6rem;
 	color: white;
@@ -53,17 +66,54 @@ h4 {
 h5 {
 	font-family: "Buffalo Light";
 	font-size: 4.4rem;
-	max-width: 750px;
+	/*max-width: 750px;*/
 	color: white;
+	text-align: center;
+}
+
+@media (min-width: 1080px) {
+	h5 {
+		margin-top: .5rem;
+	}
 }
 
 p {
+	margin: 5px;
+
 	font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
 	font-size: 1.5rem;
 	font-weight: 200;
-	max-width: 750px;
 	color: white;
 }
+
+@media (min-width: 600px) {
+	p {
+		margin: 10px;
+	}
+}
+
+@media (min-width: 900px) {
+	p {
+		margin: 5px 50px;
+		max-width: 900px;
+	}
+}
+
+@media (min-width: 1080px) {
+	p {
+		margin: 20px 150px 60px 150px;
+		max-width: 900px;
+	}
+}
+
+@media (min-width: 1600px) {
+	p {
+		margin-left: 50%;
+		transform: translateX(-50%);
+		max-width: 900px;
+	}
+}
+
 
 p strong {
 	font-weight: 400;
