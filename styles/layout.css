@@ -1,0 +1,17 @@
+
+body {
+	background-color: #47505c;
+}
+
+
+.layout__video {
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
+
+@media (min-width: 1080px) {
+	.layout__video {
+		width: 960px;
+		height: 540px;
+	}
+}

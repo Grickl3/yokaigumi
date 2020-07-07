@@ -1,0 +1,86 @@
+
+@font-face {
+    font-family: "Buffalo Bold";
+    src: url("./fonts/Buffalo-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Buffalo BoldInline";
+    src: url("./fonts/Buffalo-BoldInline.ttf");
+}
+
+@font-face {
+    font-family: "Buffalo Light";
+    src: url("./fonts/Buffalo-Light.ttf");
+}
+
+@font-face {
+    font-family: "Buffalo LightItalic";
+    src: url("./fonts/Buffalo-LightItalic.ttf");
+}
+
+@font-face {
+    font-family: "Buffalo SemiBoldOutline";
+    src: url("./fonts/Buffalo-SemiBoldOutline.ttf");
+}
+
+@font-face {
+    font-family: "Buffalo SemiBoldOutlineItalic";
+    src: url("./fonts/Buffalo-SemiBoldOutlineItalic.ttf");
+}
+
+
+h1 {
+	font-family: "Buffalo Bold Inline", Helvetica;
+	font-size: 9rem;
+	/*max-width: 750px;*/
+	color: white;
+}
+
+h3 {
+	font-family: "Buffalo Semi Bold Outline";
+	font-size: 3.6rem;
+	max-width: 750px;
+	color: white;
+}
+
+h4 {
+	font-family: "Buffalo Bold";
+	font-size: 2.6rem;
+	color: white;
+}
+
+h5 {
+	font-family: "Buffalo Light";
+	font-size: 4.4rem;
+	max-width: 750px;
+	color: white;
+}
+
+p {
+	font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+	font-size: 1.5rem;
+	font-weight: 200;
+	max-width: 750px;
+	color: white;
+}
+
+p strong {
+	font-weight: 400;
+	font-style: italic;
+}
+
+a, a p {
+	text-decoration: none;
+	color: #0aacca;
+}
+
+a:hover, a p:hover {
+	color: #c9270a;
+}
+
+
+
+
+
+
